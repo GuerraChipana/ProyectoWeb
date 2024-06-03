@@ -1,0 +1,161 @@
+/* Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.p {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-1 {
+    background-image: url(/VistaCliente/imgs3/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    display: block;
+}
+
+.title-content {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-1 h2 {
+    color: black;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: 6px;
+    display: inline-block;
+}
+
+.section-1 p {
+    color: #fffc;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    overflow: hidden;
+    background: transparent;
+}
+
+.busqueda input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-weight: 800;
+    transition: all .1s;
+}
+
+.busqueda button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000000;
+    font-weight: 900;
+    border: 3px solid #000;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    margin-left: 0px;
+    margin-right: -7px;
+}
+
+.section-2 {
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.elemento {
+    background-color: #0d0f1d;
+    width: 343px;
+    margin: 32px;
+    height: 412px;
+    border-radius: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.elemento h4 {
+    font-size: 200%;
+    color: #15f7c9;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+.elemento p {
+    font-size: 2.5em;
+    font-family: Arial, sans-serif;
+
+}
+
+.Añadir {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+
+.busqueda input[type="text"]:hover {
+    border: 3px solid #fff;
+}

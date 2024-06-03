@@ -1,0 +1,76 @@
+/* section nosotros */
+.section_Nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #000c;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem; 
+    max-width: 1200px; 
+    width: 100%; 
+    background-color: #fff;
+    padding: 2rem;
+  }
+  
+  .contenido {
+    flex: 0 0 60%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem; 
+    z-index: 4;
+  }
+  
+  .mision, .vision {
+    font-weight: 900;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px 2px #0007; 
+    padding: 1rem;
+    margin: 20px 0px;
+  }
+  
+  .mision h2, .vision h2 {
+    font-optical-sizing: auto;
+    font-weight: 1200;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    font-size: 3rem; 
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 900;
+  }
+  
+  .mision p, .vision p {
+    line-height: 2;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.02rem;
+    color: black; 
+    text-align: justify;
+    margin-left: 5%
+  
+  }
+  
+  .imgM-V {
+    flex: 0 0 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgM-V img {
+    max-width: 80%;
+    height: auto; 
+    border-radius: 10px;
+    margin-left: 10%
+  }

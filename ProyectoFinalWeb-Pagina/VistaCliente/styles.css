@@ -1,0 +1,170 @@
+/* Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Estilos generales */
+p {
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  max-width: 100%;
+  background-color: transparent;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+h1 {
+  font-size: 28px;
+  font-weight: 900;
+  font-style: italic;
+  transition: all 1s;
+}
+.nav .nav__ul li {
+  display: inline-block;
+}
+.nav__link {
+  margin: 10px 20px;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000d;
+  transition: all 0.5s;
+}
+.btn {
+  border: none;
+  border: 2px solid #00f;
+  padding: 5px 10px;
+  transition: border-radius 1s;
+  font-weight: 900;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #0002;
+  border: 3px solid #00f;
+  border-radius: 25px;
+}
+.header__logoB img {
+  height: 40px;
+  transition: all 1s;
+}
+.header__logoC img {
+
+  height: 50px;
+  transition: all 1s;
+}
+.header__logoC img:hover , .header__logoB img:hover {
+  transform: scale(1.1);
+}
+.header__tittle h1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  padding-left: 20px;
+  font-size: 30px;
+}
+.nav__item {
+  padding: 10px 0px;
+  transition: all 1s;
+}
+.nav__ul {
+  margin: 10px 0px;
+}
+.nav__item .nav__link:hover {
+  font-size: 20px;
+  color: #00f;
+  border-bottom: 2px solid #00f;
+  font-weight: 800;
+}
+/*Footer*/
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.footer-container {
+  margin: 40px ;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+}
+
+.footer-links h3 {
+  margin: 10px 0px 10px 0px;
+  font-weight: 900;
+  border-bottom: 2px solid #00f;
+  display: inline-block;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #000d;
+  line-height: 2;
+  transition: all .3s;
+}
+.link-social a {
+  width: 150px;
+  display: block; 
+  margin: 10px 0px;
+  padding: 5px 0 5px 10px;  
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #0002;
+  transition: all 0.5s;
+}
+.link-social i {
+  padding-right: 10px;
+}
+.footer-links a:hover {
+  padding-left: 10px;
+  font-weight: 900;
+  color: #00f;
+}
+.link-social a:hover {
+  padding: 0;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 25px;
+  background-color: #00f4;
+  transform: scale(0.95);
+  text-align: center;
+}
+
+.footer-logo h3 {
+  font-size: 2em;
+  font-weight: 900;
+}
+.footer-logo a {
+  text-decoration: none;
+  color: #000;
+}
+.logo-footer {
+  display: flex;
+}
+.footer-logo p {
+  padding-left: 50px;
+  margin-top: 20px;
+  color: #000c;
+  line-height: 2;
+  font-weight: bold;
+}

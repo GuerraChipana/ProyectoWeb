@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="EstilosSecciones/styles0.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="fondo-container">
+                <img src="Imgs0/FondoLyR.jpg" alt="" />
+                <div class="overlay"></div>
+            </div>
+            <button class="exit-button" onclick="window.location.href='1_inicio.html'">
+                Salir
+            </button>
+
+            <div class="form-container">
+                <h1>¡Inicia Session!</h1>
+                <div class="form-cambio">
+                    <a class="cambio1" href="0_registro.html">Register</a>
+                    <a class="cambio2" href="0_login.html">Log In</a>
+                </div>
+                <form action="/ruta-de-tu-servidor" method="post">
+                    <div class="form-group">
+                        <label for="users">Usuario</label>
+                        <div class="input-container">
+                            <input autocomplete="off" placeholder="Ejm. MarcoED"  type="text" id="users" name="users" required />
+                            <i class="bx bxs-user-circle"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pw">Contraseña</label>
+                        <div class="input-container">
+                            <input placeholder="-------------" autocomplete="off" type="password" id="pw" name="pw" required />
+                            <i onclick="TogglePasswordVisibility()" class="bx bx-lock-alt"></i>
+                        </div>
+                    </div>
+                    <button class="form-registrar" type="submit">
+                        Registrar
+                    </button>
+                </form>
+            </div>
+    </main>
+    <script src="Scripst/Script1.js"></script>
+</body>
+
+</html>

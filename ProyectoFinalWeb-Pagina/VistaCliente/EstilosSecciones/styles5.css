@@ -1,0 +1,91 @@
+/* section_Ubicacion */
+.section_Ubicacion {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.mapa {
+  text-align: center;
+}
+.mapa img {
+  max-width: 65%;
+  height: auto;
+  border-radius: 10px;
+}
+.icono-ubicacion {
+  color: red;
+}
+/* section_contacto */
+.section_contacto {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.texto {
+  flex: 0 0 65%; 
+  padding-right: 1rem;
+}
+.texto h2 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.8rem; 
+  margin: 0;
+  margin-left: 10%;
+
+}
+.iconos {
+  display: flex;
+  flex: 0 0 35%; 
+}
+.gmail{
+  flex: 0 0 50%;
+}
+.gmail i {
+  font-size: 3rem;
+  color: #1a237e;
+  margin-left: 30%;
+}
+.gmail p1 {
+  color: #585b82;
+  font-size: 0.7rem;
+  text-align: center; 
+  margin-left: 24%;
+}
+.gmail p2 {
+  color: #1a237e; 
+  font-size: 1.2rem;
+  text-align: center; 
+}
+.phone{
+  flex: 0 0 50%;
+}
+.phone i {
+  font-size: 3rem;
+  color: #1a237e;
+  margin-left: 14%;
+
+}
+.phone p1 {
+  color: #585b82;
+  font-size: 0.7rem;
+  margin-left: 10%;
+}
+.phone p2 {
+  color: #1a237e; 
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 4%
+}

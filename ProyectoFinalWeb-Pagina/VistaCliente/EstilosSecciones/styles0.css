@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.fondo-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.fondo-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+}
+/*Formulario*/
+.form-container {
+  width: 50%;
+  z-index: 2;
+  margin: auto;
+  background-color: #000d;
+  border-radius: 25px;
+  padding: 40px;
+  padding-bottom: 0;
+  box-shadow: 0 0 10px #fff7;
+}
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: #fffe;
+}
+.form-group {
+  min-width: 40%;
+  max-width: 70%;
+  text-align: left;
+  margin: 5px 10px 10px 20px;
+  display: inline-block;
+  
+}
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.form-group input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #0008;
+  color: #fff;
+  padding: 5px 0 5px 30px;
+}
+.input-container {
+  transition: all 0.5s 0.2s;
+}
+button {
+  width: 50%;
+  padding: 5px;
+  background-color: #0009;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: all 0.5s 0.2s;
+  box-shadow: 0 0 10px #fff7;
+}
+
+.exit-button {
+  width: 100px;
+  z-index: 4;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s 0.2s;
+}
+
+.form-cambio {
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.cambio1, .cambio2 {
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+}
+.cambio1 {
+  border-right: none;
+  color: #0e24b5;
+  background-color: #fffd;
+  font-weight: 900;
+  border-radius: 25px 0 0 25px;
+}
+.cambio2 {
+  border-left: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+  border-radius:  0 25px 25px 0;
+}
+
+i {
+  cursor: pointer;
+  color: #fff;
+  z-index: 5;
+}
+.input-container {
+  position: relative;
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  left: 5px; /* Ajusta según sea necesario */
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.btns-cambio {
+  padding: 5px 0;
+  width: 40%;
+  display: inline-block;
+}
+
+/*Transiciones*/
+.form-registrar:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+}
+.form-registrar i:hover {
+  color: #000;
+}
+
+.exit-button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  transform: scale(0.9);
+  box-shadow: 0 0 10px #000;
+}
+.form-group .input-container:hover  {
+  margin-left: 10px;
+}
+.form-group .input-container:focus {
+  margin-left: 10px;
+}
+
+
+
